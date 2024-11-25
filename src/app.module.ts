@@ -9,6 +9,7 @@ import { UserModule } from './user/user.module';
 import { NewsModule } from './news/news.module';
 import { TariffModule } from './tariff/tariff.module';
 import { PickupLocationModule } from './pickup-location/pickup-location.module';
+import { SitesettingsModule } from './sitesettings/sitesettings.module';
 
 
 @Module({
@@ -32,7 +33,8 @@ import { PickupLocationModule } from './pickup-location/pickup-location.module';
     UserModule,
     NewsModule,
     TariffModule,
-    PickupLocationModule
+    PickupLocationModule,
+    SitesettingsModule
   ], 
 
   controllers: [AppController],
